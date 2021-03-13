@@ -1,0 +1,52 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ccc;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.4rem;
+}
+
+.table {
+  width: 800px;
+  padding: 30px;
+  margin: 200px auto;
+  background: teal;
+  text-align: center;
+}
+
+table {
+  width: 100%;
+  height: 380px;
+  color: rgb(54, 53, 53);
+  border-collapse: collapse;
+}
+
+thead,
+tfoot {
+  height: 100px;
+  text-align: center;
+  background-color: teal;
+  color: white;
+}
+
+tbody tr td:first-child {
+  background-color: rgb(91, 172, 172);
+  border-bottom: rgb(212, 211, 211) 1px solid;
+  color: whitesmoke;
+}
+
+tbody tr:hover {
+  background-color: whitesmoke;
+  color: teal;
+  transition: 0.3s;
+}
+
+tbody td:hover {
+  background-color: rgb(91, 172, 172);
+  transition: 0.3s;
+  color: whitesmoke;
+}
